@@ -14,6 +14,8 @@
 		C0BCDA731B9D21D200DFA53B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BCDA721B9D21D200DFA53B /* Images.xcassets */; };
 		C0BCDA761B9D21D200DFA53B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BCDA741B9D21D200DFA53B /* LaunchScreen.xib */; };
 		C0BCDA821B9D21D200DFA53B /* HFDownLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BCDA811B9D21D200DFA53B /* HFDownLoadTests.m */; };
+		C0BCDA901B9D34D900DFA53B /* HFConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BCDA8F1B9D34D900DFA53B /* HFConnection.m */; };
+		C0BCDA931B9D367E00DFA53B /* HFSession.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BCDA921B9D367E00DFA53B /* HFSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C0BCDA7B1B9D21D200DFA53B /* HFDownLoadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFDownLoadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BCDA801B9D21D200DFA53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0BCDA811B9D21D200DFA53B /* HFDownLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFDownLoadTests.m; sourceTree = "<group>"; };
+		C0BCDA8E1B9D34D900DFA53B /* HFConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFConnection.h; sourceTree = "<group>"; };
+		C0BCDA8F1B9D34D900DFA53B /* HFConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFConnection.m; sourceTree = "<group>"; };
+		C0BCDA911B9D367E00DFA53B /* HFSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSession.h; sourceTree = "<group>"; };
+		C0BCDA921B9D367E00DFA53B /* HFSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				C0BCDA6A1B9D21D200DFA53B /* AppDelegate.m */,
 				C0BCDA6C1B9D21D200DFA53B /* ViewController.h */,
 				C0BCDA6D1B9D21D200DFA53B /* ViewController.m */,
+				C0BCDA8E1B9D34D900DFA53B /* HFConnection.h */,
+				C0BCDA8F1B9D34D900DFA53B /* HFConnection.m */,
+				C0BCDA911B9D367E00DFA53B /* HFSession.h */,
+				C0BCDA921B9D367E00DFA53B /* HFSession.m */,
 				C0BCDA6F1B9D21D200DFA53B /* Main.storyboard */,
 				C0BCDA721B9D21D200DFA53B /* Images.xcassets */,
 				C0BCDA741B9D21D200DFA53B /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				C0BCDA6E1B9D21D200DFA53B /* ViewController.m in Sources */,
 				C0BCDA6B1B9D21D200DFA53B /* AppDelegate.m in Sources */,
 				C0BCDA681B9D21D200DFA53B /* main.m in Sources */,
+				C0BCDA901B9D34D900DFA53B /* HFConnection.m in Sources */,
+				C0BCDA931B9D367E00DFA53B /* HFSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
